@@ -1,0 +1,18 @@
+{
+    "columns" : [
+        {
+           "name" : "COLUMN_NAME", // Required: a unique identifier of the column name in this result
+
+           "friendly_name" : "FRIENDLY_NAME", // Required: friendly name of the column. Currently unused, so can be the same as _name_.
+           "type" : "VALUE_TYPE" // // Supported types: integer, float, boolean, string (default), datetime (ISO-8601 text format). If unknown, use "string".
+        }
+    ],
+    "rows" : [
+        {
+            // name is the column name as it appears in the columns above.
+            // VALUE is a valid JSON value. For dates it's an ISO-8601 string.
+            "name" : VALUE,
+            "name2" : VALUE2
+        }
+    ]
+}
