@@ -6,7 +6,7 @@
     ],
     "rows" : [
         {            
-            "name" : 1,            
+            "COLUMN_NAME" : 1,            
         }
     ]
 }
