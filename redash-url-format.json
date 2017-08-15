@@ -2,15 +2,11 @@
     "columns" : [
         {
            "name" : "COLUMN_NAME",
-
-           "friendly_name" : "FRIENDLY_NAME",
-           "type" : "integer"
         }
     ],
     "rows" : [
         {            
-            "name" : 1,
-            "name2" : 2
+            "name" : 1,            
         }
     ]
 }
