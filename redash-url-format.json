@@ -11,8 +11,8 @@
         {
             // name is the column name as it appears in the columns above.
             // VALUE is a valid JSON value. For dates it's an ISO-8601 string.
-            "name" : VALUE,
-            "name2" : VALUE2
+            "name" : 1,
+            "name2" : 2
         }
     ]
 }
